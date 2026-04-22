@@ -212,21 +212,40 @@
   flex-direction: column;
   justify-content: center;
   background: rgba(0, 0, 0, 0.65);
+  transition: background 0.35s ease;
 }
 
 .facts-overlay h1 {
   font-size: 120px;
   color: transparent;
   -webkit-text-stroke: 2px var(--primary);
+  transition: -webkit-text-stroke-color 0.35s ease;
 }
 
 .facts-overlay a:hover {
   color: var(--primary) !important;
 }
 
-#facts img {
+#facts .position-relative {
+  overflow: hidden;
+}
+
+#facts .position-relative img {
+  transition: transform 0.4s ease;
   width: 500px;
   height: 600px;
+}
+
+#facts .position-relative:hover img {
+  transform: scale(1.06);
+}
+
+#facts .position-relative:hover .facts-overlay {
+  background: rgba(253, 161, 43, 0.55);
+}
+
+#facts .position-relative:hover .facts-overlay h1 {
+  -webkit-text-stroke-color: #fff;
 }
 
 /*** Service ***/

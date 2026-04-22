@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -17,7 +17,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/logo-removedbg.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,48 +47,46 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center border-start border-end px-3">
-                    <small class="fa fa-phone-alt me-2"></small>
-                    <small>+90 532 559 83 82</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center border-end px-3">
-                    <small class="fa fa-phone-alt me-2"></small>
-                    <small>+90 544 711 23 22</small>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
+    <div id="topbar" class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-flex">
+            <div class="col-lg-12 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-square border-end" href="https://www.instagram.com/yildizteknik_72/"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square" href="https://www.instagram.com/yildizteknik_72/" target="_blank"><small class="fab fa-instagram"></small></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0"><i class="fa fa-building text-primary me-3"></i>Yıldız Teknik</h1>
+            <h1 class="m-0"><img src="img/logo-removedbg.png" style="width: 60px; height: 60px; object-fit: contain;" /> Yıldız Teknik</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
-                <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
-                <a href="service.html" class="nav-item nav-link">Hizmetlerimiz</a>
-                <a href="contact.html" class="nav-item nav-link">Iletişim</a>
+                <a href="index.html" class="nav-item nav-link">Anasayfa</a>
+                <a href="hakkimizda.html" class="nav-item nav-link">Hakkımızda</a>
+                <a href="hizmetlerimiz.html" class="nav-item nav-link">Hizmetlerimiz</a>
+                <a href="takimimiz.html" class="nav-item nav-link">Takımımız</a>
+                <a href="iletisim.html" class="nav-item nav-link active">İletişim</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
+    <!-- Phone Banner Start -->
+    <div class="container-fluid bg-primary py-3 text-center">
+        <a href="tel:+905325598382" class="text-white text-decoration-none">
+            <i class="fa fa-phone-alt me-2"></i>
+            <strong style="font-size: 1.4rem; letter-spacing: 1px;">+90 532 559 83 82</strong>
+            <span class="ms-3 text-white-50">— Hemen Arayın</span>
+        </a>
+    </div>
+    <!-- Phone Banner End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
@@ -96,7 +94,7 @@
             <h1 class="display-4 text-white animated slideInDown mb-4">İletişim</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Anasayfa</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Anasayfa</a></li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">İletişim</li>
                 </ol>
             </nav>
@@ -122,19 +120,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-6">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <h3 class="mb-0">Osman İstek</h3>
-                            <p>Teknik Uzman</p>
-                            <h6>İletişim</h6>
-                            <p class="mb-0">Telefon: +90 544 711 23 22</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -146,24 +131,25 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6">
-                        <h1 class="text-white mb-4"><i class="fa fa-building text-primary me-3"></i>Yıldız Teknik</h1>
+                        <h1 class="text-white mb-4"><img src="img/logo-removedbg.png" />Yıldız Teknik</h1>
                         <p>Batman'da yeni ve yenilikçi ev ve işyerlerine yönelik teknik servis hizmeti</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-square border-end" href="https://www.instagram.com/yildizteknik_72/"><i class="fab fa-instagram"></i></a>
+                        <div class="d-flex pt-2 gap-2">
+                            <a class="btn btn-square btn-outline-primary" href="https://www.instagram.com/yildizteknik_72/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-outline-success" href="https://wa.me/905325598382" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <h4 class="text-light mb-4">Adres</h4>
                         <p><i class="fa fa-map-marker-alt me-3"></i>Çamlıtepe, 4063. Sk. No:14, 72000 Batman Merkez/Batman</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+90 532 559 83 82</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+90 544 711 23 22</p>
-                </div>
+                        <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+905325598382" class="text-white text-decoration-none">+90 532 559 83 82</a></p>
+                        <p><i class="fab fa-whatsapp me-3"></i><a href="https://wa.me/905325598382" target="_blank" class="text-white text-decoration-none">WhatsApp ile Yazın</a></p>
+                <div class="mt-3"><iframe src="https://maps.google.com/maps?q=Camlitepe,+4063.+Sk.+No:14,+72000+Batman+Merkez&output=embed" width="100%" height="180" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe></div>
+                    </div>
                     <div class="col-lg-4 col-md-6">
                         <h4 class="text-light mb-4">Bakınız</h4>
-                        <a class="btn btn-link" href="">Hakkımızda</a>
-                        <a class="btn btn-link" href="">İletişim</a>
-                        <a class="btn btn-link" href="">Hizmetlerimiz</a>
+                        <a class="btn btn-link" href="hakkimizda.html">Hakkımızda</a>
+                        <a class="btn btn-link" href="iletisim.html">İletişim</a>
+                        <a class="btn btn-link" href="hizmetlerimiz.html">Hizmetlerimiz</a>
                     </div>
                 </div>
             </div>
@@ -175,7 +161,7 @@
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://github.com/furkotikoo">furkotikoo</a>
+                            Designed By <a href="https://github.com/furkotikoo">Furkan Yıldız</a>
                         </div>
                     </div>
                 </div>
@@ -183,6 +169,11 @@
         </div>
         <!-- Footer End -->
 
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/905325598382" target="_blank"
+       style="position:fixed; bottom:90px; right:20px; z-index:9999; background:#25D366; color:#fff; width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.6rem; box-shadow:0 4px 12px rgba(0,0,0,0.3); text-decoration:none;"
+       title="WhatsApp ile Yazın"><i class="fab fa-whatsapp"></i></a>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
